@@ -84,16 +84,18 @@ object Form_Principal: TForm_Principal
         Font.Style = [fsBold, fsItalic]
         ParentFont = False
         TabOrder = 3
+        OnClick = Button17Click
       end
-      object Edit1: TEdit
+      object T_visor: TEdit
         Left = 8
-        Top = 60
+        Top = 64
         Width = 250
         Height = 35
         Alignment = taRightJustify
         BorderStyle = bsNone
         CharCase = ecUpperCase
         Color = clGradientInactiveCaption
+        Enabled = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -27
@@ -102,10 +104,9 @@ object Form_Principal: TForm_Principal
         Font.Quality = fqClearTypeNatural
         ParentFont = False
         TabOrder = 4
-        Text = '0123456789'
       end
     end
-    object Button1: TButton
+    object B_7: TButton
       Left = -1
       Top = 119
       Width = 74
@@ -118,8 +119,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 1
+      OnClick = B_7Click
     end
-    object Button2: TButton
+    object B_8: TButton
       Left = 79
       Top = 119
       Width = 74
@@ -132,8 +134,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 2
+      OnClick = B_8Click
     end
-    object Button3: TButton
+    object B_9: TButton
       Left = 159
       Top = 119
       Width = 70
@@ -146,8 +149,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 3
+      OnClick = B_9Click
     end
-    object Button4: TButton
+    object B_dividir: TButton
       Left = 235
       Top = 119
       Width = 70
@@ -160,8 +164,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 4
+      OnClick = B_dividirClick
     end
-    object Button5: TButton
+    object B_multip: TButton
       Left = 235
       Top = 183
       Width = 70
@@ -174,8 +179,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 5
+      OnClick = B_multipClick
     end
-    object Button6: TButton
+    object B_6: TButton
       Left = 159
       Top = 183
       Width = 70
@@ -188,8 +194,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 6
+      OnClick = B_6Click
     end
-    object Button7: TButton
+    object B_5: TButton
       Left = 79
       Top = 183
       Width = 74
@@ -202,8 +209,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 7
+      OnClick = B_5Click
     end
-    object Button8: TButton
+    object B_4: TButton
       Left = -1
       Top = 183
       Width = 74
@@ -216,8 +224,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 8
+      OnClick = B_4Click
     end
-    object Button9: TButton
+    object B_subtra: TButton
       Left = 235
       Top = 247
       Width = 70
@@ -230,8 +239,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 9
+      OnClick = B_subtraClick
     end
-    object Button10: TButton
+    object B_3: TButton
       Left = 159
       Top = 247
       Width = 70
@@ -244,8 +254,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 10
+      OnClick = B_3Click
     end
-    object Button11: TButton
+    object B_2: TButton
       Left = 79
       Top = 247
       Width = 74
@@ -258,8 +269,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 11
+      OnClick = B_2Click
     end
-    object Button12: TButton
+    object B_1: TButton
       Left = -1
       Top = 247
       Width = 74
@@ -272,8 +284,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 12
+      OnClick = B_1Click
     end
-    object Button13: TButton
+    object B_adicao: TButton
       Left = 235
       Top = 311
       Width = 70
@@ -286,8 +299,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 13
+      OnClick = B_adicaoClick
     end
-    object Button14: TButton
+    object B_result: TButton
       Left = 159
       Top = 311
       Width = 70
@@ -301,7 +315,7 @@ object Form_Principal: TForm_Principal
       ParentFont = False
       TabOrder = 14
     end
-    object Button15: TButton
+    object B_virg: TButton
       Left = 79
       Top = 311
       Width = 74
@@ -314,8 +328,9 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 15
+      OnClick = B_virgClick
     end
-    object Button16: TButton
+    object B_0: TButton
       Left = -1
       Top = 311
       Width = 74
@@ -328,6 +343,7 @@ object Form_Principal: TForm_Principal
       Font.Style = []
       ParentFont = False
       TabOrder = 16
+      OnClick = B_0Click
     end
   end
 end
